@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="container">
+          <h1>Maze Game</h1>
+
+          <div class="controls">
+               <label>Width: <input type="number" id="widthInput" value="5" min="3" max="10"></label>
+               <label>Height: <input type="number" id="heightInput" value="5" min="3" max="10"></label>
+               <button id="startButton">Start</button>
+               <button id="restartButton">Restart</button>
+          </div>
+
+          <div class="game-info">
+               <p>Level: <span id="levelDisplay">1</span></p>
+               <p id="gameMessage"></p>
+          </div>
+          
+          <div id="gameBoard"></div>
+     </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
